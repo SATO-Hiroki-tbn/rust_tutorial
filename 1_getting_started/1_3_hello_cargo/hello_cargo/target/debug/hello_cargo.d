@@ -1,0 +1,1 @@
+/Users/hirokitomono/work/projects/private/rust_tutorial/1_getting_started/1_3_hello_cargo/hello_cargo/target/debug/hello_cargo: /Users/hirokitomono/work/projects/private/rust_tutorial/1_getting_started/1_3_hello_cargo/hello_cargo/src/main.rs
