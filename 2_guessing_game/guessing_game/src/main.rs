@@ -9,8 +9,11 @@ fn main() {
 
     // println!("The secret number is: {secret_number}");
 
+    let mut count = 0;
+
     loop {
         println!("Please input your guess.");
+        count = count + 1;
 
         let mut guess = String::new();
 
@@ -29,7 +32,7 @@ fn main() {
             Ordering::Less => println!("Too small!"),
             Ordering::Greater => println!("Too big!"),
             Ordering::Equal => {
-                println!("You win!");
+                println!("You win! count: {count}");
                 break;
             }
         }
